@@ -1,17 +1,17 @@
 ## Date: 29-08-2026
 
 **Today's Work:**
-- Completed Day 4 OOP programming problems under `Day4` folder:
-  - M1: `BookInventory.java` - Replaced parallel arrays with `BookInventory` class and implemented `printEntry()`.
-  - M2: `PayrollAccount.java` - Implemented `PayrollAccount` with encapsulation, bonus crediting, tax deduction, and getter validation.
-  - M3: `Employee.java` - Implemented `Employee` class with constructor overloading and `this()` chaining.
-  - M4: `HallTicket.java` - Explored reference copying, aliasing, and identity comparison using `HallTicket`.
-  - M5: `EmployeeStatic.java` - Corrected class design by splitting instance members from static members in `Employee`.
-- Added interactive user input statements across all Day 4 programs.
+- Completed Day 4 Category B OOP programming problems under `Day4` folder:
+  - M1: `LibraryBook.java` - Implemented `LibraryBook` with constructor chaining via `this()` to assign default `"PENDING"` status to unconfirmed ISBNs in a single pass.
+  - M2: `Employee.java` - Resolved field/parameter naming collisions using the `this` keyword in both the constructor and `raiseSalary()` method to process uniform festival bonuses.
+  - M3: `LateFee.java` - Created late fee calculator with locked `final` methods (`calculateLateFee()` and `printSummary()`), skipping on-time accounts (`daysLate <= 0`).
+  - M4: `SrmStudent.java` - Implemented one-time static setup for college details using a `static` initialization block while batch creating student records.
+  - M5: `AccountPayment.java` - Implemented batch payment processing using `instanceof` to dynamically dispatch payments between `HostelFeeAccount` and `FeeAccount` with account type counters.
+- Added interactive `Scanner` input statements across all Day 4 programs for student-style dynamic testing.
 
 **Next Session Plan:**
-- Practice inheritance, polymorphism, and interface implementation in Java.
-- Solve upcoming OOP assignment sets.
+- Explore advanced polymorphism, abstract classes, and interface hierarchies in Java.
+- Complete upcoming OOP assignment modules.
 
 **Issues Faced:**
 - None
