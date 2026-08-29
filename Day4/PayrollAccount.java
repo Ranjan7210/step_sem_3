@@ -2,7 +2,7 @@ package Day4;
 
 import java.util.Scanner;
 
-class PayrollAccount {
+public class PayrollAccount {
     private double basicSalary;
     private double bonus;
 
@@ -37,9 +37,7 @@ class PayrollAccount {
     public double getNetSalary() {
         return this.basicSalary + this.bonus;
     }
-}
 
-public class pg2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

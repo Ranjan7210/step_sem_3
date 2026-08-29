@@ -2,7 +2,7 @@ package Day4;
 
 import java.util.Scanner;
 
-class Employee {
+public class Employee {
     String empId;
     String empName;
     double salary;
@@ -23,9 +23,7 @@ class Employee {
     public void printProfile() {
         System.out.println(empId + " | " + empName + " | Rs " + salary + " | Intern: " + isIntern);
     }
-}
 
-public class pg3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,25 +2,25 @@ package Day4;
 
 import java.util.Scanner;
 
-class Employee {
-    String empName;
-    double salary;
-    static String companyName = "Bright Horizon Technologies";
-    static int employeeCount = 0;
+public class EmployeeStatic {
+    static class Employee {
+        String empName;
+        double salary;
+        static String companyName = "Bright Horizon Technologies";
+        static int employeeCount = 0;
 
-    public Employee(String empName, double salary) {
-        this.empName = empName;
-        this.salary = salary;
-        employeeCount++;
+        public Employee(String empName, double salary) {
+            this.empName = empName;
+            this.salary = salary;
+            employeeCount++;
+        }
+
+        static void printCompanyInfo() {
+            System.out.println(companyName);
+            System.out.println("Employees on record: " + employeeCount);
+        }
     }
 
-    static void printCompanyInfo() {
-        System.out.println(companyName);
-        System.out.println("Employees on record: " + employeeCount);
-    }
-}
-
-public class pg5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter object creation command / number of employees: ");

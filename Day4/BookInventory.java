@@ -2,7 +2,7 @@ package Day4;
 
 import java.util.Scanner;
 
-class BookInventory {
+public class BookInventory {
     String title;
     String author;
     int copiesAvailable;
@@ -16,9 +16,7 @@ class BookInventory {
     public void printEntry() {
         System.out.println(title + " by " + author + " - " + copiesAvailable + " copies available");
     }
-}
 
-public class pg1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         BookInventory[] books = new BookInventory[4];

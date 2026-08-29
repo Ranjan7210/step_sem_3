@@ -2,7 +2,7 @@ package Day4;
 
 import java.util.Scanner;
 
-class HallTicket {
+public class HallTicket {
     String studentName;
     int seatNumber;
 
@@ -10,9 +10,7 @@ class HallTicket {
         this.studentName = studentName;
         this.seatNumber = seatNumber;
     }
-}
 
-public class pg4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
