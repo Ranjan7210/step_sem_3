@@ -1,8 +1,8 @@
-package Week1;
+package Day3;
 
 import java.util.Scanner;
 
-class Student {
+public class Student {
     String name;
     int attendance;
     static String collegeName = "SRM Institute of Science and Technology";
@@ -17,9 +17,7 @@ class Student {
     static void printCollegeInfo() {
         System.out.println(collegeName + " Students created: " + studentCount);
     }
-}
 
-public class pg5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         

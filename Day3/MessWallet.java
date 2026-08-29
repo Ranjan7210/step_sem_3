@@ -1,8 +1,8 @@
-package Week1;
+package Day3;
 
 import java.util.Scanner;
 
-class MessWallet {
+public class MessWallet {
     private double balance;
 
     public MessWallet(double openingBalance) {
@@ -33,9 +33,7 @@ class MessWallet {
     public double getBalance() {
         return this.balance;
     }
-}
 
-public class pg2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

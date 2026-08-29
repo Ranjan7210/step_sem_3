@@ -2,7 +2,7 @@ package Day3;
 
 import java.util.Scanner;
 
-class Course {
+public class Course {
     String code;
     String title;
     int credits;
@@ -22,9 +22,7 @@ class Course {
     public int totalCredits() {
         return credits + labCredits;
     }
-}
 
-public class pg3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         

@@ -2,7 +2,7 @@ package Day3;
 
 import java.util.Scanner;
 
-class IdCard {
+public class IdCard {
     String name;
     int booksIssued;
 
@@ -10,9 +10,7 @@ class IdCard {
         this.name = name;
         this.booksIssued = booksIssued;
     }
-}
 
-public class pg4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         

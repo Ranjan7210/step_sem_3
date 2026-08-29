@@ -1,6 +1,8 @@
+package Day3;
+
 import java.util.Scanner;
 
-class PlacementRecord {
+public class PlacementRecord {
     String studentName;
     String company;
     double packageLpa;
@@ -14,9 +16,7 @@ class PlacementRecord {
     public void printRecord() {
         System.out.println(studentName + " -> " + company + " @ " + packageLpa + " LPA");
     }
-}
 
-public class pg1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         PlacementRecord[] records = new PlacementRecord[3];
