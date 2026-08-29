@@ -2,7 +2,7 @@ package Assignment_Day3;
 
 import java.util.Scanner;
 
-public class pg5 {
+public class EmployeeStatic {
     static class Employee {
         String empName;
         double salary;

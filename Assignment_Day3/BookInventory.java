@@ -2,7 +2,7 @@ package Assignment_Day3;
 
 import java.util.Scanner;
 
-class BookInventory {
+public class BookInventory {
     String title;
     String author;
     int copiesAvailable;
@@ -16,17 +16,18 @@ class BookInventory {
     public void printEntry() {
         System.out.println(title + " by " + author + " - " + copiesAvailable + " copies available");
     }
-}
 
-public class pg1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         BookInventory[] books = new BookInventory[4];
         for (int i = 0; i < 4; i++) {
-            System.out.print("Enter details: ");
+            System.out.print("Enter book details: ");
             String line = sc.nextLine();
             String[] parts = line.split(", ");
-            books[i] = new BookInventory(parts[0], parts[1], Integer.parseInt(parts[2]));
+            String title = parts[0];
+            String author = parts[1];
+            int copies = Integer.parseInt(parts[2]);
+            books[i] = new BookInventory(title, author, copies);
         }
         for (int i = 0; i < 4; i++) {
             books[i].printEntry();
