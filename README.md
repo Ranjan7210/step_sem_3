@@ -1,94 +1,65 @@
-# STEP Semester 3 - Java Object-Oriented Programming (OOP)
+## Date: 05-09-2026
 
-This repository contains the Java source code solutions and exercises for the **STEP Semester 3** curriculum, organized by sessions and topic areas.
+**Today's Work:**
+- Organized Session 3 OOP Basics class and assignment problems under `src/session_3_oop_basics/`.
+- Organized Session 4 Constructors and Keywords class problems under `src/session_4_constructors_and_keywords/`.
+- Added descriptive user input prompts (`Scanner`) across Java programs for interactive console execution.
 
----
+**Next Session Plan:**
+- Continue with upcoming OOP sessions, inheritance, polymorphism, and interface implementation.
 
-## 📁 Repository Structure
-
-```
-step_sem_3/
-└── src/
-    ├── session_3_oop_basics/
-    │   ├── class_problem/
-    │   │   ├── Course.java
-    │   │   ├── IdCard.java
-    │   │   ├── MessWallet.java
-    │   │   ├── PlacementRecord.java
-    │   │   └── Student.java
-    │   └── assignment_problem/
-    │       ├── BookInventory.java
-    │       ├── Employee.java
-    │       ├── EmployeeStatic.java
-    │       ├── HallTicket.java
-    │       └── PayrollAccount.java
-    └── session_4_constructors_and_keywords/
-        ├── class_problem/
-        │   ├── AccountPayment.java
-        │   ├── Employee.java
-        │   ├── LateFee.java
-        │   ├── LibraryBook.java
-        │   └── SrmStudent.java
-        └── assignment_problem/
-```
+**Issues Faced:**
+- None
 
 ---
 
-## 📚 Curriculum & Topics Covered
+## Date: 29-08-2026
 
-### 🔹 Session 3: OOP Basics (`src/session_3_oop_basics/`)
+**Today's Work:**
+- Completed Day 4 Category B OOP programming problems under `Day4` folder:
+  - M1: `LibraryBook.java` - Implemented `LibraryBook` with constructor chaining via `this()` to assign default `"PENDING"` status to unconfirmed ISBNs in a single pass.
+  - M2: `Employee.java` - Resolved field/parameter naming collisions using the `this` keyword in both the constructor and `raiseSalary()` method to process uniform festival bonuses.
+  - M3: `LateFee.java` - Created late fee calculator with locked `final` methods (`calculateLateFee()` and `printSummary()`), skipping on-time accounts (`daysLate <= 0`).
+  - M4: `SrmStudent.java` - Implemented one-time static setup for college details using a `static` initialization block while batch creating student records.
+  - M5: `AccountPayment.java` - Implemented batch payment processing using `instanceof` to dynamically dispatch payments between `HostelFeeAccount` and `FeeAccount` with account type counters.
+- Added interactive `Scanner` input statements across all Day 4 programs for student-style dynamic testing.
 
-Focuses on foundational object-oriented programming concepts in Java.
+**Next Session Plan:**
+- Explore advanced polymorphism, abstract classes, and interface hierarchies in Java.
+- Complete upcoming OOP assignment modules.
 
-#### Class Problems
-* **`Student.java`**: Static variables (`collegeName`, `studentCount`) vs instance fields.
-* **`Course.java`**: Constructor overloading and constructor chaining using `this(...)`.
-* **`IdCard.java`**: Java reference semantics, object reference sharing, and reference comparison (`==`).
-* **`MessWallet.java`**: Data encapsulation (`private` fields), getter methods, and input validation.
-* **`PlacementRecord.java`**: Creating and iterating through arrays of objects (`PlacementRecord[]`).
-
-#### Assignment Problems
-* **`BookInventory.java`**: Inventory tracking using object arrays.
-* **`Employee.java`**: Constructor overloading for different employee types (Permanent vs Intern).
-* **`EmployeeStatic.java`**: Nested static class and static counters to track created objects.
-* **`HallTicket.java`**: Reference copy behavior, mutation through alias variables, and string parsing.
-* **`PayrollAccount.java`**: Encapsulation, bonus additions, tax deductions, and net salary calculations.
+**Issues Faced:**
+- None
 
 ---
 
-### 🔹 Session 4: Constructors & Keywords (`src/session_4_constructors_and_keywords/`)
+## Date: 28-08-2026
 
-Dives deeper into constructor mechanics, keywords (`this`, `super`, `final`, `static`), and access modifiers.
+**Today's Work:**
+- Completed `Assignment_Day3` practice questions covering class design, encapsulation, constructor overloading, reference copying, and static fields (`BookInventory.java`, `PayrollAccount.java`, `Employee.java`, `HallTicket.java`, `EmployeeStatic.java`).
 
-#### Class Problems
-* **`AccountPayment.java`**: Payment processing models and method signatures.
-* **`Employee.java`**: Employee modeling with specialized initialization.
-* **`LateFee.java`**: Late fee calculation rules and penalty handling.
-* **`LibraryBook.java`**: Library management systems demonstrating object properties.
-* **`SrmStudent.java`**: SRM student record handling and static attributes.
+**Next Session Plan:**
+- Proceed to Day 4 exercises and advanced constructor chaining.
+
+**Issues Faced:**
+- None
 
 ---
 
-## 🚀 How to Run
+## Date: 22-08-2026
 
-### Prerequisites
-* **Java Development Kit (JDK 8 or higher)** installed and configured in your environment path.
+**Today's Work:**
+- Completed Day 3 core OOP problems under `Day3` folder:
+  - M1: `PlacementRecord.java` - Implemented `PlacementRecord` class with array of objects.
+  - M2: `MessWallet.java` - Implemented `MessWallet` with encapsulated balance and transactional validations.
+  - M3: `Course.java` - Implemented `Course` with constructor overloading for theory and lab courses.
+  - M4: `IdCard.java` - Implemented `IdCard` demonstrating reference copying and `==` comparisons.
+  - M5: `Student.java` - Implemented `Student` tracking static college name and student count.
 
-### Compilation & Execution Examples
+**Next Session Plan:**
+- Complete Assignment Day 3 practice problems.
 
-Navigate to the project root directory (`step_sem_3`) in your terminal:
+**Issues Faced:**
+- None
 
-#### 1. Compile a Java file
-```bash
-javac -d bin src/session_3_oop_basics/class_problem/Student.java
-```
-
-#### 2. Execute the compiled class
-```bash
-java -cp bin session_3_oop_basics.class_problem.Student
-```
-
-#### 3. Compile all Session 3 files at once
-```bash
-javac -d bin src/session_3_oop_basics/*/*.java
-```
+---
