@@ -1,4 +1,4 @@
-package Day4;
+package session_4_constructors_and_keywords.class_problem;
 
 import java.util.Scanner;
 

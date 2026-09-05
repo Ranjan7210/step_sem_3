@@ -1,4 +1,4 @@
-package Day4;
+package session_4_constructors_and_keywords.class_problem;
 
 import java.util.Scanner;
 
@@ -60,7 +60,8 @@ public class AccountPayment {
             processPayment(accounts[i], amount);
         }
 
-        System.out.println("Hostel accounts processed: " + hostelCount + " | Day-scholar accounts processed: " + dayScholarCount);
+        System.out.println(
+                "Hostel accounts processed: " + hostelCount + " | Day-scholar accounts processed: " + dayScholarCount);
 
         sc.close();
     }
