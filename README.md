@@ -1,3 +1,22 @@
+## Date: 05-09-2026
+
+**Today's Work:**
+- Completed Session 5 Access Modifiers and Encapsulation class problems under `src/session_5_access_modifiers_and_encapsulation/class_problem/`:
+  - M1: `MovieTicket.java` - Configured four fields with distinct access modifiers (`private`, `default`, `protected`, `public`).
+  - M2: `AccessChecker.java` - Implemented access classifier across 5 contexts (`SAME_CLASS`, `SAME_PACKAGE`, `DIFFERENT_PACKAGE`, `SUBCLASS_DIFFERENT_PACKAGE_OWN_TYPE`, `SUBCLASS_DIFFERENT_PACKAGE_PARENT_TYPE`) and batch summary count.
+  - M3: `CineScreen.java` - Redesigned seat booking encapsulation with constructor-time validation (`seatsTotal <= 0`) and boundary-safe state transition methods.
+  - M4: `MovieBookingProfile.java` - Created JavaBean compliant class with `this()` constructor chaining and write-only OTP property.
+  - M5: `BookingReceipt.java` & `GroupBookingReceipt.java` - Implemented immutable receipts with defensive array copying, wither pattern, and `processNightlySettlement()` with `instanceof` dispatch and null safety.
+
+**Next Session Plan:**
+- Complete Session 5 assignment problems.
+- Explore advanced OOP concepts, inheritance hierarchies, and interfaces.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 28-08-2026
 
 **Today's Work:**
