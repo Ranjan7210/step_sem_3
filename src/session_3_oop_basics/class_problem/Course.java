@@ -1,4 +1,4 @@
-package Day3;
+package session_3_oop_basics.class_problem;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class Course {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+
         String line1 = sc.nextLine();
         String[] parts1 = line1.split(", ");
         Course c1;
@@ -46,7 +46,7 @@ public class Course {
 
         System.out.println(c1.code + " total credits: " + c1.totalCredits());
         System.out.println(c2.code + " total credits: " + c2.totalCredits());
-        
+
         sc.close();
     }
 }

@@ -1,4 +1,4 @@
-package Day3;
+package session_3_oop_basics.class_problem;
 
 import java.util.Scanner;
 
@@ -24,18 +24,18 @@ public class PlacementRecord {
         for (int i = 0; i < 3; i++) {
             String line = sc.nextLine();
             String[] parts = line.split(", ");
-            
+
             String name = parts[0];
             String company = parts[1];
             double packageLpa = Double.parseDouble(parts[2]);
-            
+
             records[i] = new PlacementRecord(name, company, packageLpa);
         }
 
         for (int i = 0; i < 3; i++) {
             records[i].printRecord();
         }
-        
+
         sc.close();
     }
 }
