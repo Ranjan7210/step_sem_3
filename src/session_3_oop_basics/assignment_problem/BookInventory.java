@@ -1,4 +1,4 @@
-package Assignment_Day3;
+package session_3_oop_basics.assignment_problem;
 
 import java.util.Scanner;
 

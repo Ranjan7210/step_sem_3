@@ -1,4 +1,4 @@
-package Day3;
+package session_3_oop_basics.class_problem;
 
 import java.util.Scanner;
 
