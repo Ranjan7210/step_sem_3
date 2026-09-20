@@ -22,9 +22,13 @@ public class PlacementRecord {
         PlacementRecord[] records = new PlacementRecord[3];
 
         for (int i = 0; i < 3; i++) {
+            System.out.print("Enter Record " + (i + 1) + " (Student Name, Company, Package LPA): ");
             String line = sc.nextLine();
             String[] parts = line.split(", ");
 
+            String name = parts[0].trim();
+            String company = parts[1].trim();
+            double packageLpa = Double.parseDouble(parts[2].trim());
             String name = parts[0];
             String company = parts[1];
             double packageLpa = Double.parseDouble(parts[2]);

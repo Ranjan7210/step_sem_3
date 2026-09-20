@@ -21,6 +21,15 @@ public class Student {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter Student 1 details (Name, Attendance): ");
+        String line1 = sc.nextLine();
+        String[] parts1 = line1.split(", ");
+        Student s1 = new Student(parts1[0].trim(), Integer.parseInt(parts1[1].trim()));
+
+        System.out.print("Enter Student 2 details (Name, Attendance): ");
+        String line2 = sc.nextLine();
+        String[] parts2 = line2.split(", ");
+        Student s2 = new Student(parts2[0].trim(), Integer.parseInt(parts2[1].trim()));
         String line1 = sc.nextLine();
         String[] parts1 = line1.split(", ");
         Student s1 = new Student(parts1[0], Integer.parseInt(parts1[1]));

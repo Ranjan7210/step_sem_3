@@ -14,6 +14,16 @@ public class IdCard {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter Primary Student details (Name, Books Issued): ");
+        String line1 = sc.nextLine();
+        String[] parts1 = line1.split(", ");
+        String name = parts1[0].trim();
+        int initialBooks = Integer.parseInt(parts1[1].trim());
+
+        System.out.print("Enter updated books count for duplicate card: ");
+        int newBooks = Integer.parseInt(sc.nextLine().trim());
+
+        System.out.print("Enter Separate Student details (Name, Books Issued): ");
         String line1 = sc.nextLine();
         String[] parts1 = line1.split(", ");
         String name = parts1[0];
@@ -23,8 +33,8 @@ public class IdCard {
 
         String line3 = sc.nextLine();
         String[] parts3 = line3.split(", ");
-        String separateName = parts3[0];
-        int separateBooks = Integer.parseInt(parts3[1]);
+        String separateName = parts3[0].trim();
+        int separateBooks = Integer.parseInt(parts3[1].trim());
 
         IdCard ravi = new IdCard(name, initialBooks);
         IdCard duplicate = ravi;
