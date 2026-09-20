@@ -24,6 +24,13 @@ public class IdCard {
         int newBooks = Integer.parseInt(sc.nextLine().trim());
 
         System.out.print("Enter Separate Student details (Name, Books Issued): ");
+        String line1 = sc.nextLine();
+        String[] parts1 = line1.split(", ");
+        String name = parts1[0];
+        int initialBooks = Integer.parseInt(parts1[1]);
+
+        int newBooks = Integer.parseInt(sc.nextLine());
+
         String line3 = sc.nextLine();
         String[] parts3 = line3.split(", ");
         String separateName = parts3[0].trim();

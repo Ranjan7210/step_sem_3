@@ -30,6 +30,13 @@ public class Student {
         String line2 = sc.nextLine();
         String[] parts2 = line2.split(", ");
         Student s2 = new Student(parts2[0].trim(), Integer.parseInt(parts2[1].trim()));
+        String line1 = sc.nextLine();
+        String[] parts1 = line1.split(", ");
+        Student s1 = new Student(parts1[0], Integer.parseInt(parts1[1]));
+
+        String line2 = sc.nextLine();
+        String[] parts2 = line2.split(", ");
+        Student s2 = new Student(parts2[0], Integer.parseInt(parts2[1]));
 
         Student.printCollegeInfo();
 
