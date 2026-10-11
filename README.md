@@ -1,3 +1,55 @@
+## Date: 03-10-2026
+
+**Today's Work:**
+- Completed Session 8 Queue and Stack assignment problems under `src/session_8/assignment_problem/`:
+  - `HostelLaundryQueue.java` - Laundry queue manager using LinkedList with enqueue, dequeue, and peek operations.
+  - `AssignmentSubmissionPortal.java` - Submission portal stack with push, pop, and top-of-stack display.
+  - `CampusPremiereTicketCounter.java` - Ticket counter queue with batch serve and front-peek methods.
+  - `FitZoneMembershipDesk.java` - Membership desk queue with priority-based insertion and removal.
+  - `CampusNoticeBroadcaster.java` - Notice broadcaster stack with broadcast-all and undo-last operations.
+- Completed Session 9 Searching and Sorting class problems under `src/session_9/class_problem/`:
+  - `LibraryCatalogLookup.java` - Binary search on List<Book> by ISBN returning book title or "Not Found".
+  - `WarehouseGridSummary.java` - 2D grid scan returning total sum and coordinate of maximum value.
+  - `PairWithTargetSum.java` - HashSet approach to find if any pair in a sorted array sums to target.
+  - `PairWithTargetSumUnsorted.java` - Two-pointer on sorted clone plus HashSet for unsorted arrays.
+  - `MaximizeAreaBetweenTwoBoundaries.java` - Two-pointer optimal area maximizer for container water problem.
+- Completed Session 9 Searching and Sorting assignment problems under `src/session_9/assignment_problem/`:
+  - `ClassTopperFinder.java` - O(m*n) scan returning row index and total of the highest-scoring student.
+  - `MergingTwoTokenQueues.java` - Two-pointer merge of two pre-sorted arrays without re-sorting.
+  - `MostPopularCanteenOrder.java` - Frequency map with first-seen tie-break using LinkedHashMap.
+  - `HotWeatherAlertWindows.java` - Sliding window count of k-size windows where average >= threshold.
+  - `TicketPriceSlotFinder.java` - Binary search returning insertion index when not found, found index when present.
+
+**Next Session Plan:**
+- Begin Session 10: Advanced data structures and algorithm design.
+
+**Issues Faced:**
+- None
+
+---
+## Date: 26-09-2026
+
+**Today's Work:**
+- Completed Session 7 Abstract Classes and Interfaces assignment problems under `src/session_7_abstract_classes_and_interfaces/assignment_problem/`:
+  - `Ringable.java` - Interface with ring() contract implemented by DoorBell and AlarmClock.
+  - `ArtPiece.java` - Abstract base with display() abstract method and concrete subclasses Painting and Sculpture.
+  - `GardenTool.java` - Abstract tool hierarchy with Washable interface applied to WateringCan.
+  - `ClassroomDevice.java` - Abstract device with overloaded operate() and static operateAll().
+  - `Drone.java` - Interface Flyable with static launchAll() and concrete DeliveryDrone.
+- Completed Session 8 Queue and Stack class problems under `src/session_8/class_problem/`:
+  - `VehicleRentalSystem.java` - Queue-based vehicle rental with enqueue, dequeue, and availability display.
+  - `EmployeeLeaveRequestWorkflow.java` - Stack-based leave request approval with push, pop, and top preview.
+  - `OnlineExaminationSystem.java` - Question queue with timed dequeue and remaining count tracking.
+  - `HotelBookingSystem.java` - Priority queue for hotel room booking based on booking tier.
+  - `PaymentProcessingSystem.java` - Dual-stack payment processor with undo and redo support.
+
+**Next Session Plan:**
+- Begin Session 9: Searching and Sorting algorithms (binary search, sliding window, two-pointer).
+
+**Issues Faced:**
+- None
+
+---
 ## Date: 19-09-2026
 
 **Today's Work:**
@@ -9,8 +61,7 @@
   - M5: `Printable.java` - Interface `Printable` with static helper `printAll()` printing labels polymorphically for `PackageBox` and `Invoice`.
 
 **Next Session Plan:**
-- Complete Session 7 assignment problems under `src/session_7_abstract_classes_and_interfaces/assignment_problem/`.
-- Review OOP patterns, abstraction principles, and interface contracts.
+- Complete Session 7 assignment problems and begin Session 8: Queue and Stack data structures.
 
 **Issues Faced:**
 - None
